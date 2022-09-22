@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Poppins", sans-serif;
+
+}
+
+html,
+body {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+body {
+    margin: 0
+}
+
+.content-image {
+    position: relative;
+}
+
+.text-icon {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    padding: 8px 24px;
+    text-align: center;
+    width: 35%;
+    opacity: 0.6;
+
+}
+
+.text-icon-content {
+    padding: 24px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.button-header {
+    padding: 12px 20px;
+    width: 100%;
+    background: green;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-header:hover {
+    background-color: #666;
+    color: #000;
+}
+
+.text-icon:hover {
+    opacity: 1;
+}
+
+.content-app {
+    padding: 0 15px;
+}
+
+.menu-left {
+    width: 67%;
+    float: left;
+}
+
+.menu-right {
+    width: 33%;
+    float: left;
+}
+
+.button-menu {
+    background-color: aliceblue;
+    color: #000;
+    border: none;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.content-app::after,
+.menu-small::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content-app-small {
+    padding: 64px 0;
+    background-color: #f1f1f1;
+}
+
+.menu-small {
+    padding: 0 10px;
+}
+
+.menu-left-small {
+    width: 33%;
+    float: left;
+    padding: 20px;
+}
+
+.menu-right-small {
+    width: 67%;
+    float: left;
+    padding: 20px;
+}
+
+.content-icon {
+    background-color: #616161;
+    color: #fff;
+    text-align: center;
+    padding: 64px 0;
+}
+
+.div-font {
+    font-size: 80px;
+}
+
+.div-flex {
+    display: flex;
+}
+
+.menu-flex {
+    flex: 1;
+}
+
+.menu-flex2 {
+    padding: 10px 10px;
+    display: flex;
+}
+
+.menu-flex2-small {
+    padding: 10px;
+    width: 50%;
+}
+
+.content-menu-flex-small {
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.button-flex {
+    padding: 20px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.button-flex:hover {
+    background-color: #666;
+    color: #000;
+}
+
+.content-menu-flex-small:hover {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 50%), 0 2px 10px 0 rgb(0 0 0 / 50%);
+}
+
+.footer {
+    padding: 50px 0;
+    margin-top: 50px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.w3-hover-opacity:hover {
+    opacity: 0.5;
+}
